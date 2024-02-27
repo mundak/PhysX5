@@ -27,7 +27,7 @@
 # Define the options up front
 
 OPTION(NV_APPEND_CONFIG_NAME "Append config (DEBUG, CHECKED, PROFILE or '' for release) to outputted binaries." ON)
-OPTION(NV_USE_STATIC_WINCRT "Use the statically linked windows CRT" OFF)
+OPTION(NV_USE_STATIC_WINCRT "Use the statically linked windows CRT" ON)
 OPTION(NV_USE_DEBUG_WINCRT "Use the debug version of the CRT" OFF)
 OPTION(NV_FORCE_64BIT_SUFFIX "Force a 64 bit suffix for platforms that don't register properly." OFF)
 OPTION(NV_FORCE_32BIT_SUFFIX "Force a 32 bit suffix for platforms that don't register properly." OFF)
