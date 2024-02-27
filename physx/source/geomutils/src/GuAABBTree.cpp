@@ -1382,7 +1382,7 @@ void AABBTree::mergeTree(const AABBTreeMergeData& treeParams)
 		mNodes[0].mBV.include(treeParams.getRootNode().mBV);
 	}
 
-#ifdef _DEBUG
+#if PX_ENABLE_ASSERTS
 	//verify parent indices
 	for (PxU32 i = 0; i < mNbNodes; i++)
 	{
